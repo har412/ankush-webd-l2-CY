@@ -1,0 +1,8 @@
+
+What is Github?
+
+-->Github is a version control system which manages the changes we do in the code.
+-->Github aslo provides free hosting of static websites by using github pages. 
+
+-->Github is made up of Git
+-->Github is a web hosting of Git (command line tools of managing versions)
