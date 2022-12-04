@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .form-box{
+            background: aqua;
+            width: 30%;
+            margin: auto;
+            padding: 10px 15px;
+        }
+        input{
+            margin: 7.5px 5px;
+            padding: 5px 2px;
+            border-radius: 3px;
+        }
+        #submit{
+       
+           outline: black;
+           background-color: white;
+
+        }
+
+        #submit:hover{
+            color:white;
+            background: black;
+            cursor: pointer;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>Forms in Html</h1>
+
+
+    <form action="backend.js" method="/post" class="form-box">
+
+        <!-- method ==> way to handling the data -->
+        <!-- 1. Get method ==> we need to show something on screen -->
+        <!-- 2.Post method ==> we need to save something in database. -->
+
+        <!-- action contains the file where this data will stored -->
+
+        <input type="text" placeholder="Write your Name" required> <br> 
+        <input type="number" placeholder="Enter your number" required> <br>
+        <input type="email" placeholder="Enter your email" required> <br>
+        <label for="">Date : </label>
+        <input type="date" placeholder="Enter your Date"> <br>
+        Select Gender : 
+        <input type="radio" id="gender" name="gender" > Male
+        <input type="radio" id="gender" name="gender"> Female <br>
+        <input type="password" placeholder="Enter your Password"> <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="Click here to send data" id="submit">
+
+
+    </form>
+
+
+
+
+
+
+</body>
+</html>
